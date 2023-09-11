@@ -58,7 +58,7 @@ month = st.sidebar.selectbox('Month', month_list)
 day = st.sidebar.selectbox('Day of month', list_day)
 
 temperature = st.sidebar.slider(label = 'Average daily temperature', min_value = -3,
-                          max_value = 50,
+                          max_value = 45,
                           value = 10,
                           step = 1)
 
